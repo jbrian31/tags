@@ -1,4 +1,4 @@
-from flask import request, redirect
+from flask import request, redirect, Flask, render_template
 from datetime import datetime
 from app import app
 from tag import Tag
